@@ -70,7 +70,7 @@ export default function Contact() {
         <motion.div
           className="background-primary rounded-lg p-6 flex items-center justify-center space-x-4 mb-4"
         >
-          {[{ Icon: Github, link: "https://github.com/samielmadani" }, { Icon: Linkedin, link: "https://linkedin.com/in/samielmadani" }, { Icon: Mail, link: "mailto:sami.elmadani@outlook.com" }]
+          {[{ Icon: Github, link: "https://financialliteracyprogramme.netlify.app/" }, { Icon: Linkedin, link: "https://financialliteracyprogramme.netlify.app/" }, { Icon: Mail, link: "mailto:sami.elmadani@outlook.com" }]
             .map(({ Icon, link }, index) => (
               <motion.a
                 key={index}
