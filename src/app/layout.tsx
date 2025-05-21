@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Sami Elmadani",
+  title: "Financial Literacy Programme",
   description: "Portfolio",
 };
 
