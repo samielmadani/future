@@ -48,10 +48,10 @@ export default function Home() {
 
   // Data for the items
   const items = [
-    { name: 'Financial Literacy', link: '', image: zonate },
-    { name: 'Riba', link: '', image: mos },
-    { name: 'Saving', link: '', image: ucmusa },
-    { name: 'Starting a business', link: '', image: monop },
+    { name: 'Financial Literacy', link: 'https://financialliteracyprogramme.netlify.app/', image: zonate },
+    { name: 'Riba', link: 'https://financialliteracyprogramme.netlify.app/', image: mos },
+    { name: 'Saving', link: 'https://financialliteracyprogramme.netlify.app/', image: ucmusa },
+    { name: 'Starting a business', link: 'https://financialliteracyprogramme.netlify.app/', image: monop },
   ];
 
   // Event handler for image click
