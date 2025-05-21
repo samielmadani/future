@@ -312,7 +312,7 @@ export default function Home() {
 
               <motion.div variants={imageVariants} className="flex-grow relative mb-2">
                 <div className="relative" style={{ minHeight: '200px' }}> {/* Set minHeight here */}
-                  <a href="https://github.com/samielmadani" target="_blank" rel="noopener noreferrer">
+                  <a href="https://financialliteracyprogramme.netlify.app/" target="_blank" rel="noopener noreferrer">
 
                     <Image
                       src={gitGif}
@@ -407,8 +407,8 @@ export default function Home() {
             variants={itemVariants}
           >
             {[
-              { Icon: Github, link: "https://github.com/samielmadani" },
-              { Icon: Linkedin, link: "https://linkedin.com/in/samielmadani" },
+              { Icon: Github, link: "https://financialliteracyprogramme.netlify.app/" },
+              { Icon: Linkedin, link: "https://financialliteracyprogramme.netlify.app/" },
               { Icon: Mail, link: "mailto:sami.elmadani@outlook.com" }
             ].map(({ Icon, link }, index) => (
               <motion.a
