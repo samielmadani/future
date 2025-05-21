@@ -2,9 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: rgb(215, 207, 187);
+  --secondary: rgb(86, 84, 73);
+  --darkk: rgb(17 18 13);
+}
+
+
+html .html-background {
+  background-color: var(--darkk);
+}
+
+.background-primary {
+  background-color: var(--primary);
+}
+
+.background-secondary {
+  background-color: var(--secondary);
+}
+
+
+.primary-font {
+  color: var(--darkk);
+}
+
+.secondary-font {
+  color: var(--primary);
+}
+
+.text-box {
+  background-color: var(--primary-rgb); /* 0.8 is the transparency */
+  border-color: var(--darkk);
+  border-width: 1px;
+  color: var(--darkk);
+
+}
+
+
+
+@font-face {
+  font-family: 'TypoGraphica';
+  src: url('fonts/typographica_demo-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/typographica_demo-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/TypoGraphica_demo.otf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('fonts/Bebas-Regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Bebas-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.navbar {
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+
+}
+
+.navbar2 {
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+  z-index: 9999 !important;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,10 +89,57 @@ body {
   background: var(--background);
 }
 
+
+.factss
+{
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+
+}
+
+.factsss {
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+
+}
+
+
+
+.font-your-custom-font2
+{
+  font-family: 'Roboto', sans-serif; /* Versatile sans-serif for span elements */
+  /* font-weight: lighter; */
+}
+
+.headerr {
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+
+}
+
+.font-your-custom-font
+{
+  font-family: 'Roboto', sans-serif; /* Versatile sans-serif for span elements */
+  font-weight: bold;
+}
+
+
+.projects {
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+  font-weight: lighter;
+  
+}
+
 h1 {
   font-family: 'Playfair Display', serif; /* Elegant serif font for headings */
   font-size: 50px;
   /* Add any additional styles for h1 here */
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
 }
 
 h2 {
@@ -41,16 +158,30 @@ p {
 }
 
 button {
-  font-family: 'Montserrat', sans-serif; /* Bold and modern sans-serif for buttons */
-  /* Add any additional styles for button here */
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+  font-size: 30px;
 }
 
 strong {
-  font-family: 'Playfair Display', serif; /* Consistent elegant serif for strong text */
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+  /* text-transform: uppercase; */
 }
 
 span {
   font-family: 'Roboto', sans-serif; /* Versatile sans-serif for span elements */
+}
+
+.titless {
+  font-size: 35px;
+}
+
+.about-bod {
+  font-family: 'Roboto', sans-serif; /* Versatile sans-serif for span elements */
+font-size: 16px;}
+
+.about-head {
+  font-family: 'Bebas', sans-serif; /* Use the font in your styles */
+  font-weight: lighter;
 }
 
 

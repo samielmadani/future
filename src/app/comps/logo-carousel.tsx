@@ -48,25 +48,52 @@ const LogoCarousel: React.FC = () => {
     <div >
       {/* <h2 style={{ textAlign: 'center' }}>My Tech Stack</h2> */}
 
-      <a href="https://github.com/samielmadani?tab=repositories" target="_blank" rel="noopener noreferrer">
-        <div className="scroller" data-direction="right" data-speed="slow">
+      <div rel="noopener noreferrer">
+        <div className="scroller" data-direction="right" data-speed="fast">
           <div className="scroller__inner">
-            <Image src={css} alt="Logo 1" width={50} height={50} />
-            <Image src={git} alt="Logo 2" width={50} height={50} />
-            <Image src={html} alt="HTML Logo" width={50} height={50} />
-            <Image src={java} alt="Java Logo" width={50} height={50} />
-            <Image src={javascript} alt="JavaScript Logo" width={50} height={50} />
-            <Image src={mongodb} alt="MongoDB Logo" width={50} height={50} />
-            <Image src={nextjs} alt="Next.js Logo" width={50} height={50} />
-            <Image src={node} alt="Node.js Logo" width={50} height={50} />
-            <Image src={python} alt="Python Logo" width={50} height={50} />
-            <Image src={react} alt="React Logo" width={50} height={50} />
-            <Image src={sql} alt="SQL Logo" width={50} height={50} />
-            <Image src={tailwind} alt="Tailwind Logo" width={50} height={50} />
-            <Image src={typescript} alt="TypeScript Logo" width={50} height={50} />
+            <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer">
+              <Image src={css} alt="CSS Logo" width={50} height={50} />
+            </a>
+            <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+              <Image src={git} alt="Git Logo" width={50} height={50} />
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+              <Image src={html} alt="HTML Logo" width={50} height={50} />
+            </a>
+            <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer">
+              <Image src={java} alt="Java Logo" width={50} height={50} />
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+              <Image src={javascript} alt="JavaScript Logo" width={50} height={50} />
+            </a>
+            <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+              <Image src={mongodb} alt="MongoDB Logo" width={50} height={50} />
+            </a>
+            <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+              <Image src={nextjs} alt="Next.js Logo" width={50} height={50} />
+            </a>
+            <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+              <Image src={node} alt="Node.js Logo" width={50} height={50} />
+            </a>
+            <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+              <Image src={python} alt="Python Logo" width={50} height={50} />
+            </a>
+            <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+              <Image src={react} alt="React Logo" width={50} height={50} />
+            </a>
+            <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+              <Image src={sql} alt="SQL Logo" width={50} height={50} />
+            </a>
+            <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+              <Image src={tailwind} alt="Tailwind Logo" width={50} height={50} />
+            </a>
+            <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
+              <Image src={typescript} alt="TypeScript Logo" width={50} height={50} />
+            </a>
           </div>
         </div>
-      </a>
+      </div>
+
 
 
       <style jsx>{`
