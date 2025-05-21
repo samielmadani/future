@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { BurgerMenu } from '../comps/burger-menu'
 import { NavBar } from '../comps/nav-bar'
-import LogoCarousel from '../comps/logo-carousel'
 
 import ucmusaImage from '../images/ucmusa.png';
 

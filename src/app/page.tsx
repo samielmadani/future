@@ -6,7 +6,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Github, Linkedin, Mail } from 'lucide-react'
 import { BurgerMenu } from './comps/burger-menu'
 import profilePic from './images/me2.png'
-import LogoCarousel from './comps/logo-carousel'
 import { NavBar } from './comps/nav-bar'
 
 import gitGif from './images/git.gif'
