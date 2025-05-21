@@ -49,10 +49,10 @@ export default function Home() {
 
   // Data for the items
   const items = [
-    { name: 'Zonate', link: 'https://linkedin.com/in/samielmadani', image: zonate },
-    { name: 'Muslim Open Space', link: 'https://www.facebook.com/muslimopenspace/', image: mos },
-    { name: 'UCMUSA', link: 'https://www.canterburymusa.com/', image: ucmusa },
-    { name: 'University', link: 'https://github.com/samielmadani', image: monop },
+    { name: 'Financial Literacy', link: 'https://linkedin.com/in/samielmadani', image: zonate },
+    { name: 'Riba', link: 'https://www.facebook.com/muslimopenspace/', image: mos },
+    { name: 'Saving', link: 'https://www.canterburymusa.com/', image: ucmusa },
+    { name: 'Starting a business', link: 'https://github.com/samielmadani', image: monop },
   ];
 
   // Event handler for image click
@@ -160,10 +160,10 @@ export default function Home() {
           >
             <motion.h1
               variants={textVariants}
-              className="text-2xl font-semibold primary-font leading-10 headerr" // Added leading utility for line height
+              className="text-2xl font-semibold primary-font leading-10 headerr"
               style={{ fontSize: '50px' }}
             >
-              Sami Elmadani <br></br> Software Engineer
+              Sara, Mazen, Saad, Sami, & Sofea <br /> Financial Literacy Program
             </motion.h1>
 
           </motion.div>
@@ -174,39 +174,108 @@ export default function Home() {
           >
             <div className="absolute inset-0 overflow-y-scroll scrollbar-hidden p-4"> {/* Added padding here */}
               <motion.p variants={textVariants} className="secondary-font">
-                <strong className="text-2xl font-bold secondary-font">Software Engineer</strong><br />
+                <strong className="text-2xl font-bold secondary-font">Our Muslim youth are growing up with little to no financial education.</strong><br /><br />
                 <span className="font-medium text-sm font-bold secondary-font">
-                  <a style={{ fontWeight: 'bold' }} href="https://www.motorcentral.co.nz/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                    Motorcentral
-                  </a>
-                  {" | "}
-                  <a style={{ fontWeight: 'bold' }} href="https://www.avantifinance.co.nz/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                    Avanti Finance
-                  </a>
+                  <strong>Problem Statement</strong>
+                  <ul className="list-disc ml-6">
+                    <li>🔹 5-Year Plan (Foundation Phase)</li>
+                    <li>🔹 10-Year Plan (Growth Phase)</li>
+                    <li>🔹 30-Year Plan (Legacy Phase)</li>
+                  </ul>
                 </span>
                 <br />
-                <span className=" text-sm font-bold secondary-font">Since July 2024</span>
-                <br /><br />
-
-                <strong className="text-xl font-bold secondary-font">Software Engineer Intern</strong><br />
-                <span className="font-medium text-sm font-bold secondary-font">
-                  <a style={{ fontWeight: 'bold' }} href="https://datacom.com/nz/en" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                    Datacom Limited
-                  </a>
+                <strong className="text-xl font-bold secondary-font">The Plan</strong><br />
+                <span className="text-sm font-bold secondary-font">
+                  Build awareness and develop the ecosystem<br />
+                  Develop infrastructure & financial community<br />
+                  Launch the first Islamic Bank in New Zealand<br />
+                  <br />
+                  <strong>Digital content:</strong> TikTok & Instagram series on halal money tips, taxes, investing, etc.<br />
+                  <strong>Workshops/Seminars:</strong> In masjids, schools, community centres.<br />
+                  <strong>Financial Starter Packs:</strong> PDF toolkits or web apps teaching how to:
+                  <ul className="list-disc ml-6">
+                    <li>Open a halal business</li>
+                    <li>Budget effectively</li>
+                    <li>Understand taxes</li>
+                    <li>Start small investments</li>
+                  </ul>
+                  <strong>Monthly interviews:</strong> Elders sharing their journey on how they made it.<br />
+                  <strong>Create & launch surveys:</strong> Understand youth needs and segment audience.<br />
+                  <strong>Start an investment co-op or fund:</strong> A halal fund for parents to contribute for their kids.<br />
+                  <strong>Youth-led businesses:</strong> Incubate startups, run business bootcamps.<br />
+                  <strong>Mentor matching:</strong> Link youth to successful Muslim professionals.<br />
+                  <strong>Micro-scholarships:</strong> Help Muslim youth learn about finance, coding, trade skills.<br />
+                  <strong>Train-the-trainer model:</strong> Equip 50+ young Muslims to become certified community educators.<br />
+                  <strong>Develop roadmap now:</strong> Research regulatory requirements, potential funding models.<br />
+                  <strong>Build a community of consistent savers/investors.</strong><br />
+                  <strong>Grow a generation with strong financial acumen ready to lead and govern such an institution.</strong><br />
+                  <strong>Set up a waqf (Islamic endowment) to fund future community financial initiatives.</strong>
                 </span>
+                <br /><br />
+                <strong className="text-xl font-bold secondary-font">💡 How Do We Fund This, Without Relying on Donations Forever?</strong><br />
+                <ol className="list-decimal ml-6">
+                  <li>
+                    <strong>Low-Cost Membership:</strong> Imagine if just 5,000 Muslims gave $2 a month. That’s $10,000 coming in every single month — enough to run programs, pay content creators, and grow.
+                  </li>
+                  <li>
+                    <strong>Sponsored Content:</strong> We create valuable, halal financial content on TikTok, Instagram, YouTube — and work with ethical Muslim-owned brands to sponsor it.
+                  </li>
+                  <li>
+                    <strong>Workshops & Events:</strong> Run practical money workshops — things like “How to Start a Halal Side Hustle” or “First-Time Home Buying Without Riba.” Charge a small fee or find local Muslim businesses to sponsor them.
+                  </li>
+                  <li>
+                    <strong>Business Incubator:</strong> We help young Muslims start small businesses — in return, we take a tiny share of profit or offer mentorship-for-equity. It’s win-win: they grow, and so do we.
+                  </li>
+                </ol>
                 <br />
-                <span className=" text-sm font-bold secondary-font">Nov 2022 - Feb 2023</span><br />
-                <span className="text-sm text-gray-800 secondary-font">
-                  Contributed to the Datacom Timpani team, collaborating on projects to enhance software solutions and improve user experiences.
-                </span>
-                <br /><br />
-
-                <strong className="text-xl font-bold secondary-font">Software Engineer Intern</strong><br />
-                <span className="font-medium text-sm  font-bold secondary-font">Zonate, Hablaz Limited</span><br />
-                <span className=" text-sm font-bold secondary-font">Nov 2021 - Feb 2022</span><br />
-                <span className="text-gray-800 text-sm secondary-font">
-                  Worked with a dynamic start-up, helping to develop innovative applications that catered to client needs and market trends.
-                </span>
+                <strong>Target Platforms</strong><br />
+                <br />
+                <strong>Content Types:</strong>
+                <ul className="list-disc ml-6">
+                  <li>"Did You Know?" Halal finance shorts</li>
+                  <li>"Muslim Millionaire Stories" (Elder interviews)</li>
+                  <li>"Street Interviews": Ask Muslims what they wish they were taught</li>
+                  <li>"15-second business tip of the day"</li>
+                  <li>Real-life budgeting & saving challenges</li>
+                </ul>
+                <br />
+                <strong>Engagement Strategy</strong><br />
+                <br />
+                <strong>Outcomes & Measures</strong><br />
+                <table className="w-full text-left mb-2 border-collapse">
+                  <thead>
+                    <tr>
+                      <th className="border-b p-2">Outcome</th>
+                      <th className="border-b p-2">Measurable by</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="p-2">Increased financial literacy</td>
+                      <td className="p-2">Pre/post surveys, workshop quizzes</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2">Engaged youth</td>
+                      <td className="p-2"># of TikTok followers, DMs, event signups</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2">Investment habits</td>
+                      <td className="p-2"># of parents committing to $15/week fund</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2">Business acumen</td>
+                      <td className="p-2"># of youth startups launched or mentored</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2">Social inclusivity</td>
+                      <td className="p-2">% of disengaged Muslims feeling welcomed (via survey)</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2">Infrastructure building</td>
+                      <td className="p-2">Progress toward Islamic finance institution roadmap</td>
+                    </tr>
+                  </tbody>
+                </table>
               </motion.p>
             </div>
           </motion.div>
@@ -329,7 +398,7 @@ export default function Home() {
             variants={itemVariants}
           >
             {/* <motion.button variants={textVariants} className="primary-font text-xl font-semibold"> */}
-            <LogoCarousel />
+            {/* <LogoCarousel /> */}
 
             {/* </motion.button> */}
           </motion.div>

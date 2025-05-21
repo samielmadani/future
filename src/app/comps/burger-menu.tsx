@@ -103,7 +103,7 @@ export function BurgerMenu() {
           </ul>
 
           <div className="flex items-center space-x-1">
-            {/* <ColorPicker
+            <ColorPicker
               label="Primary"
               color={primaryColor}
               onChange={(color) => updateColor(color, setPrimaryColor, '--primary')}
@@ -117,7 +117,7 @@ export function BurgerMenu() {
               label="Other"
               color={darkColor} // Add dark color picker
               onChange={(color) => updateColor(color, setDarkColor, '--darkk')}
-            /> */}
+            />
             <button
               style={{ color: '#000' }}
               onClick={resetColors}

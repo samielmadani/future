@@ -86,7 +86,7 @@ export default function Projects() {
               variants={textVariants}
               className="text-3xl font-semibold primary-font font-poppins headerr"
             >
-              Projects
+              Content & Engagement
             </motion.h2>
             <a
               href="https://github.com/samielmadani?tab=repositories"
@@ -98,6 +98,29 @@ export default function Projects() {
               View More...
             </a>
           </div>
+          <div className="mb-4">
+            <h2 className="text-xl font-semibold mb-2">Content Types</h2>
+            <ul className="list-disc list-inside">
+              <li>"Did You Know?" Halal finance shorts</li>
+              <li>"Muslim Millionaire Stories" (Elder interviews)</li>
+              <li>"Street Interviews": Ask Muslims what they wish they were taught</li>
+              <li>"15-second business tip of the day"</li>
+              <li>Real-life budgeting & saving challenges</li>
+            </ul>
+          </div>
+          <div className="mb-4">
+            <h2 className="text-xl font-semibold mb-2">Engagement Strategy</h2>
+            <ul className="list-disc list-inside">
+              <li>Workshops and seminars in masjids, schools, and community centres</li>
+              <li>Monthly interviews with elders and professionals</li>
+              <li>Surveys to understand youth needs and segment audiences</li>
+              <li>Mentor matching and business bootcamps</li>
+              <li>Micro-scholarships and train-the-trainer programs</li>
+            </ul>
+          </div>
+          <p className="text-center">
+            <strong>Together, we can build a financially empowered Muslim community!</strong>
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
             <div className="space-y-6">
@@ -204,7 +227,7 @@ export default function Projects() {
           variants={itemVariants}
           style={{ marginTop: '1rem' }}
         >
-          <LogoCarousel />
+          {/* <LogoCarousel /> */}
         </motion.div>
       </motion.div>
     </div>

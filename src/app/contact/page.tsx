@@ -90,25 +90,28 @@ export default function Contact() {
           className="background-primary rounded-lg p-6 flex-grow flex flex-col mb-4"
         >
           <motion.h2 className="text-2xl font-semibold mb-4 primary-font headerr">
-            Contact Me
+            Contact & Collaboration
           </motion.h2>
           <motion.form
             onSubmit={handleCustomSubmit}
             className="space-y-4 flex-grow flex flex-col"
           >
             <div>
-              <label htmlFor="name" className="block mb-1 primary-font font-your-custom-font">Name</label>
-              <input type="text" id="name" name="name" className="w-full p-2 rounded-lg secondary-font html-background" required />
+              <p className="mb-4 text-center primary-font">
+                Interested in supporting, collaborating, or learning more about the Financial Literacy Program?
+              </p>
+              <p className="mb-4 text-center primary-font">
+                Reach out to us to join the movement, share your ideas, or help empower the next generation of financially savvy Muslims!
+              </p>
+              <div className="text-center">
+                <a
+                  href="mailto:sami.elmadani@outlook.com"
+                  className="inline-block html-background text-white px-6 py-3 rounded-lg font-semibold mt-4"
+                >
+                  Email Us
+                </a>
+              </div>
             </div>
-            <div>
-              <label htmlFor="email" className="block mb-1 primary-font font-your-custom-font">Email</label>
-              <input type="email" id="email" name="email" className="w-full p-2 rounded-lg secondary-font html-background" required />
-            </div>
-            <div className="flex-grow">
-              <label htmlFor="message" className="block mb-1 primary-font font-your-custom-font">Message</label>
-              <textarea id="message" name="message" className="w-full p-2 rounded-lg h-full secondary-font html-background" style={{ minHeight: '200px' }} required></textarea>
-            </div>
-            <button type="submit" className="html-background text-white px-4 py-2 rounded-lg secondary-font">(っ'-')╮=͟͟͞͞📨</button>
           </motion.form>
         </motion.div>
 

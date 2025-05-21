@@ -60,51 +60,28 @@ export default function About() {
             variants={itemVariants}
           >
             <motion.h2 variants={textVariants} className="text-3xl font-semibold mb-4 primary-font headerr">
-              About Me
+              About the Team
             </motion.h2>
-
-            <motion.h3 variants={textVariants} className="text-2xl font-semibold mb-2 primary-font about-head">
-              Background:
-            </motion.h3>
             <motion.ul variants={textVariants} className="mb-4 primary-font list-disc list-inside about-bod">
-              <li>Software Engineering graduate from the University of Canterbury.</li>
-              <li>Strong foundation in full-stack and mobile/web development.</li>
-              <li>Passionate about innovation.</li>
+              <li><strong>Sara, Mazen, Saad, Sami, & Sofea</strong></li>
             </motion.ul>
 
             <motion.h3 variants={textVariants} className="text-2xl font-semibold mb-2 primary-font about-head">
-              Current Role:
+              Vision:
             </motion.h3>
             <motion.ul variants={textVariants} className="mb-4 primary-font list-disc list-inside about-bod">
               <li>
-                Software Developer at{" "}
-                <a style={{fontWeight: 'bold'}} href="https://www.motorcentral.co.nz/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                  Motorcentral
-                </a>
-                {" (part of "}
-                <a style={{fontWeight: 'bold'}} href="https://www.avantifinance.co.nz/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                  Avanti Finance
-                </a>
-                {")"}
+                We are a group of passionate Muslims dedicated to empowering our youth with practical financial literacy, rooted in Islamic values.
               </li>
-              <li>Industry leading DMS software for the automotive industry.</li>
-              <li>Working in C# .NET, Angular TS, SQL and more...</li>
-            </motion.ul>
-
-            <motion.h3 variants={textVariants} className="text-2xl font-semibold mb-2 primary-font about-head">
-              Personal Projects:
-            </motion.h3>
-            <motion.ul variants={textVariants} className="mb-4 primary-font list-disc list-inside about-bod">
-              <li>Created applications using React, JavaScript, TypeScript, C#, Flutter, Kotlin, and Jetpack Compose.</li>
-              <li>Many projects serve the university and local community, including a website and mobile app for the University of Canterbury Muslim Students Association.</li>
-            </motion.ul>
-
-            <motion.h3 variants={textVariants} className="text-2xl font-semibold mb-2 primary-font about-head">
-              Community Involvement:
-            </motion.h3>
-            <motion.ul variants={textVariants} className="mb-4 primary-font list-disc list-inside about-bod">
-              <li>Event Coordinator for New Zealand Eid Day (Christchurch) since July 2021.</li>
-              <li>Manage event volunteers, ticket registrations, food vendors, and coordinate large events with the Christchurch City Council.</li>
+              <li>
+                Our vision is to build a thriving, financially savvy Muslim community in New Zealand—one that can support itself, grow businesses, and leave a legacy for generations to come.
+              </li>
+              <li>
+                Through digital content, workshops, and innovative programs, we aim to make financial education accessible, engaging, and relevant for every Muslim youth.
+              </li>
+              <li>
+                <strong>Join us on this journey to financial empowerment and community growth!</strong>
+              </li>
             </motion.ul>
           </motion.div>
 
@@ -134,11 +111,10 @@ export default function About() {
           >
             <School size={48} className="mb-2" />
             <motion.h3 variants={textVariants} className="text-xl font-semibold mb-2 text-center factss">
-              Education
+              Home
             </motion.h3>
             <motion.p variants={textVariants} className="text-center factsss">
-              University of Canterbury<br></br>Christchurch Boys High School
-
+Buying a house in New Zealand
             </motion.p>
 
           </motion.div>
@@ -149,10 +125,10 @@ export default function About() {
           >
             <MapPinCheck size={48} className="mb-2" />
             <motion.h3 variants={textVariants} className="text-xl font-semibold mb-2 text-center factss ">
-              FROM
+              Settle
             </motion.h3>
             <motion.p variants={textVariants} className="text-center factsss">
-              🇵🇸 Palestine <br></br> 🇳🇿 New Zealand
+               Financial stability
             </motion.p>
           </motion.div>
 
@@ -162,10 +138,10 @@ export default function About() {
           >
             <Languages size={48} className="mb-2" />
             <motion.h3 variants={textVariants} className="text-xl font-semibold mb-2 factss">
-              Languages
+              Language
             </motion.h3>
             <motion.p variants={textVariants} className="text-center factsss">
-              Fluent in English <br></br>and Arabic
+              Support regardless of language barriers
             </motion.p>
           </motion.div>
         </div>

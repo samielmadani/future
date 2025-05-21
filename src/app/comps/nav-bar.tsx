@@ -100,7 +100,7 @@ export function NavBar() {
             </button>
           </div>
           <ul className="flex space-x-4 primary-font">
-            {['Home', 'Projects', 'CV', 'About', 'Contact'].map((item) => (
+            {['Home', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 {/* {item === 'CV' ? (
                   <a
