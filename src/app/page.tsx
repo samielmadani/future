@@ -48,10 +48,10 @@ export default function Home() {
 
   // Data for the items
   const items = [
-    { name: 'Financial Literacy', link: 'https://linkedin.com/in/samielmadani', image: zonate },
-    { name: 'Riba', link: 'https://www.facebook.com/muslimopenspace/', image: mos },
-    { name: 'Saving', link: 'https://www.canterburymusa.com/', image: ucmusa },
-    { name: 'Starting a business', link: 'https://github.com/samielmadani', image: monop },
+    { name: 'Financial Literacy', link: '', image: zonate },
+    { name: 'Riba', link: '', image: mos },
+    { name: 'Saving', link: '', image: ucmusa },
+    { name: 'Starting a business', link: '', image: monop },
   ];
 
   // Event handler for image click
