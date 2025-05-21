@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif; /* Elegant serif font for headings */
+  font-size: 50px;
+  /* Add any additional styles for h1 here */
+}
+
+h2 {
+  font-family: 'Lora', serif; /* Classic yet modern serif for subheadings */
+  /* Add any additional styles for h2 here */
+}
+
+a {
+  font-family: 'Poppins', sans-serif; /* Clean, versatile sans-serif for links */
+  /* Add any additional styles for a here */
+}
+
+p {
+  font-family: 'Merriweather', serif; /* Highly readable serif font for paragraphs */
+  /* Add any additional styles for p here */
+}
+
+button {
+  font-family: 'Montserrat', sans-serif; /* Bold and modern sans-serif for buttons */
+  /* Add any additional styles for button here */
+}
+
+strong {
+  font-family: 'Playfair Display', serif; /* Consistent elegant serif for strong text */
+}
+
+span {
+  font-family: 'Roboto', sans-serif; /* Versatile sans-serif for span elements */
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Minimal scrollbar for Webkit browsers (Chrome, Safari) */
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.scrollbar-hidden::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05); /* Subtle background for the track */
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Thumb with subtle visibility */
+  border-radius: 10px; /* Rounded corners for a smooth look */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Adds spacing around the thumb */
+}
+
+/* Minimal scrollbar for Firefox */
+.scrollbar-hidden {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.05); /* Thumb and track colors */
+}
